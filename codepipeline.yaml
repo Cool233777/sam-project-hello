@@ -31,7 +31,7 @@ Parameters:
     Default: "GitHub"
   FullRepositoryId:
     Type: String
-    Default: "Cool233777/sam-project-hello"
+    Default: "cool233777/sam-project-hello"
   MainGitBranch:
     Type: String
     Default: "main"
@@ -241,7 +241,7 @@ Resources:
                       {"name": "ENV_STACK_NAME", "value": "${TestingStackName}"},
                       {"name": "ENV_PIPELINE_EXECUTION_ROLE", "value": "${TestingPipelineExecutionRole}"},
                       {"name": "ENV_CLOUDFORMATION_EXECUTION_ROLE", "value": "${TestingCloudFormationExecutionRole}"},
-                      {"name": "ENV_BUCKET", "value": "${TestingArtifactBucket}"},
+                      {"name": "ENV_BUCKET", "value": "${TestingArtifactBucket}"}
                     ]
                 InputArtifacts:
                   - Name: BuildArtifactAsZip
