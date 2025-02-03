@@ -8,7 +8,6 @@ Description: >
   - BuildAndDeployFeatureStack (FeatureGitBranch only)
   - BuildAndPackage (MainGitBranch only)
   - DeployTest (MainGitBranch only)
-  - DeployProd (MainGitBranch only)
 
   **WARNING** You will be billed for the AWS resources used if you create a stack from this template.
 
