@@ -53,12 +53,12 @@ Parameters:
   TestingArtifactBucket:
     Type: String
     Default: "aws-sam-cli-managed-dev-pipeline-r-artifactsbucket-rqd3axx84w38"
-  # TestingImageRepository:
-  #   Type: String
+  TestingImageRepository:
+     Type: String
     # If there are functions with "Image" PackageType in your template,
     # Update the line below with image repository URL and add "--image-repository ${TESTING_IMAGE_REPOSITORY}" to
     # prod "sam package" and "sam deploy" commands in buildspec files (in pipeline/).
-  #   Default: ""
+     Default: ""
   # ProdRegion:
   #   Type: String
   #   Default: "us-east-1"
