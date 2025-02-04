@@ -596,20 +596,6 @@ Resources:
             Value: !Ref SamTemplate
           - Name: TESTING_REGION
             Value: !Ref TestingRegion
-          # - Name: PROD_REGION
-          #   Value: !Ref ProdRegion
-          # - Name: TESTING_PIPELINE_EXECUTION_ROLE
-          #   Value: !Ref TestingPipelineExecutionRole
-          # - Name: PROD_PIPELINE_EXECUTION_ROLE
-          #   Value: !Ref ProdPipelineExecutionRole
-          # - Name: TESTING_ARTIFACT_BUCKET
-          #   Value: !Ref TestingArtifactBucket
-          # - Name: PROD_ARTIFACT_BUCKET
-          #   Value: !Ref ProdArtifactBucket
-          # - Name: TESTING_IMAGE_REPOSITORY
-          #   Value: !Ref TestingImageRepository
-          # - Name: PROD_IMAGE_REPOSITORY
-          #   Value: !Ref ProdImageRepository
       ServiceRole: !GetAtt CodeBuildServiceRole.Arn
       Source:
         Type: CODEPIPELINE
